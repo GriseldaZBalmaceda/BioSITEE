@@ -78,21 +78,51 @@
     </div>
 
     <!--Accomplishments-->
-    <div class="row">
+    <div class="row" id="Accomplishments">
+
         <div class="col-sm-12 col-md-12 col-lg-6 accomplishments">
-            <h1>Portfolio</h1>
+            <h1 style="color:orange">Accomplishments</h1>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 volunteer">
-            <div class="accomplishments">
-                <div class="accImage" id="flip">
-                    <img src="images/volunteer.jpg" class="portfolioImg">
+
+         <div class="col-sm-12 col-md-12 col-lg-6 contentImage"> 
+           
+        <div class="habitat">
+          <div class="accText">
+                <h1>Habitat for Humanity</h1>
+                <p>click to see more</p>
+             </div>
+                <div onclick="openContent()">
+                 <img src="images/volunteer.jpg" class="portfolioImg">
                 </div>
-                <div class="accText">
-                    <h1>Hello</h1>
-                </div>
-                <div id="panel">
+                  <div class="content" id="myContent">
                     <div class="text">
-                        <br/>
+                        <br />
+                        <h1 style="padding: 10px; margin-top: 60px;">Habitat for Humanity Student Chapter </h1>
+                       <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
+                        <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.We genuinely volunteer helping to build houses 
+                        Fridays and Saturdays, usually 3 times a semester.We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
+                    </div>
+                    <span style="font-size:30px;cursor:pointer" onclick="closeContent()"> Click to close me</span>
+                </div>
+
+            </div>
+            
+           
+
+     
+              
+              
+               <div class="realEstate">
+                    <div class="accText">
+                            <h1></h1>
+                        </div>
+                <div class="accImage2" id="flip2">
+                    <img src="images/realestate.jpg" class="portfolioImg">
+                </div>
+               
+                <div id="panel2">
+                    <div class="text">
+                        <br />
                         <h1 style="padding: 10px; margin-top: 60px;">Habitat for Humanity Student Chapter </h1>
                         <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
                         <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.
@@ -101,21 +131,12 @@
                     </div>
                     <button class="btn btn-primary" id="close">Close</button>
                 </div>
-
-            </div>
-            <div class="realestate">
-                <div class="accImage" id="flip">
-                    <img src="images/realestate.jpg" class="portfolioImg">
-                </div>
-                <div id="panel">
-                    <button class="btn btn-primary" id="close">Close</button>
-                </div>
             </div>
 
-
-
+            </div>
+         
         </div>
-    </div>
+
 
 
     <!--Reviews-->
@@ -177,22 +198,13 @@
         </footer>
     </footer>
     <script>
-        $(document).ready(function () {
-            $("#flip").click(function () {
-                $('.accText').addClass('hide');
-                $("#panel").slideToggle("slow");
-                $('#flip').slideUp('slow');
+       function openContent() {
+    document.getElementById("myContent").style.width = "100%";
+}
 
-            });
-        });
-        $(document).ready(function () {
-            $("#close").click(function () {
-               
-                $("#panel").slideUp("slow");
-                $('#flip').slideDown('slow');
- $('.accText').removeClass('hide');
-            });
-        });
+function closeContent() {
+    document.getElementById("myContent").style.width = "0";
+}
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

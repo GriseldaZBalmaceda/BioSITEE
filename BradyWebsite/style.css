@@ -132,13 +132,13 @@ border-radius: 50%
 .portfolioImg{
     height:800px;
     width:100%;
-    opacity:.9;
+    opacity:.6;
    
 }
 .card{
     z-index: -1;
 }
-.volunteer{
+.contentImage{
     background:black;
     padding: 0px;
 }
@@ -191,5 +191,38 @@ display: none;
     position: absolute;
     top:20%;
     left:50%;
-    color:orange;
+    color:#FF7517;
+    z-index:1;
 }
+
+.content {
+    height:50%;
+     position: absolute;
+     width:0px;
+     z-index: 1;
+     top: 0;
+     right: 0;
+     background-color: white;
+     overflow-x: hidden;
+     transition: 0.5s;
+     text-align:center;
+ }
+ 
+ .content a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+ 
+ }
+ 
+ 
+ .content .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+ }
