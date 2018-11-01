@@ -21,40 +21,13 @@
     <!--homepage/navigation-->
 
     <div class="homePicture parallax">
-        <nav class="navbar navbar-expand-lg navbar-light sticky" id="topnav">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Achievements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
     </div>
     <!--About-->
     <div class="About">
         <h1 style="text-align: center">About Me</h1>
 
 
-        <img src="images/ean pic.PNG" class="aboutPicture center" />
+        <img src="images/resize-1000x1000.jpeg" class="aboutPicture center" />
         <p class="center" style="text-align: center;">
             I love everything technology, from video games to programming languages to hardware.
             I spend most of my free time learning new things and reading about innovative technology.
@@ -68,68 +41,78 @@
     <!--Projects/Resume-->
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 portfolio">
-            <h1>Portfolio</h1>
+            <div class="accomplishText">
+                <h1>Portfolio</h1>
+            </div>
+            
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 projects">
-            <div class="card">
-
-            </div>
+            
         </div>
     </div>
 
     <!--Accomplishments-->
-    <div class="row" id="Accomplishments">
-
+    <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 accomplishments">
-            <h1 style="color:orange">Accomplishments</h1>
-        </div>
-
-         <div class="col-sm-12 col-md-12 col-lg-6 contentImage"> 
-           
-        <div class="habitat">
-          <div class="accText">
-                <h1>Habitat for Humanity</h1>
-                <p>click to see more</p>
-             </div>
-                <div onclick="openContent()">
-                 <img src="images/volunteer.jpg" class="portfolioImg">
-                </div>
-                  <div class="content" id="myContent">
-                    <div class="text">
-                        <br />
-                        <h1 style="padding: 10px; margin-top: 60px;">Habitat for Humanity Student Chapter </h1>
-                       <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
-                        <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.We genuinely volunteer helping to build houses 
-                        Fridays and Saturdays, usually 3 times a semester.We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
-                    </div>
-                    <span style="font-size:30px;cursor:pointer" onclick="closeContent()"> Click to close me</span>
-                </div>
-
+            <div class="accomplishText">
+                <h1 style="color:#2C2727">Accomplishments</h1> 
+                <ul>
+                    <li><a href="#about">About /</a></li>
+                    <li><a href="#portfolio">Portfolio /</a></li>
+                    <li><a href="#achievements">Achievements /</a></li>
+                    <li><a href="#reviews">Reviews /</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
+      </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-6 contentImage">  
+        <div class="habitat">
+            <div class="accText">
+                <h1>Habitat for Humanity</h1>
+                <p onclick="openContent()">click to see more</p>
+             </div>
+                  <div>
+                    <img src="images/volunteer.jpg" class="portfolioImg">
+                </div>
+
+                  <div class="content" id="myContent">
+                      <div class="closeButton" onclick="closeContent()">
+                          <h1>X</h1>
+                      </div>
+                      <div>
+                             <img src="images/volunteer.jpg" class="imageHeader" /> 
+                      </div>
+                        <div class="orangeBox">
+                           <h1>Habitat for Humanity Student Chapter </h1>
+                           <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
+                           <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.We genuinely volunteer helping to build houses 
+                           Fridays and Saturdays, usually 3 times a semester.We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
+                      <span style="font-size:30px;cursor:pointer" onclick="closeContent()"> Click to close me</span> 
+                        </div>
+                    </div>
+        </div>
             
            
-
-     
-              
               
                <div class="realEstate">
                     <div class="accText">
-                            <h1></h1>
+                            <h1>Real Estate Scholarship</h1>
                         </div>
-                <div class="accImage2" id="flip2">
+                <div onClick="openContent2()">
                     <img src="images/realestate.jpg" class="portfolioImg">
                 </div>
                
-                <div id="panel2">
+                <div class="content2" id="myContent2">
                     <div class="text">
                         <br />
-                        <h1 style="padding: 10px; margin-top: 60px;">Habitat for Humanity Student Chapter </h1>
+                        <h1 style="padding: 10px; margin-top: 60px;">Real Estate Scholarship</h1>
                         <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
                         <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.
                             We genuinely volunteer helping to build houses Fridays and Saturdays, usually 3 times a semester.
                             We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
                     </div>
-                    <button class="btn btn-primary" id="close">Close</button>
+                    <button class="btn btn-primary" onclick="closeContent2()">Close</button>
                 </div>
             </div>
 
@@ -199,11 +182,18 @@
     </footer>
     <script>
        function openContent() {
-    document.getElementById("myContent").style.width = "100%";
+    document.getElementById("myContent").style.width = "120%";
 }
 
 function closeContent() {
     document.getElementById("myContent").style.width = "0";
+}
+function openContent2() {
+    document.getElementById("myContent2").style.width = "120%";
+}
+
+function closeContent2() {
+    document.getElementById("myContent2").style.width = "0";
 }
     </script>
 
