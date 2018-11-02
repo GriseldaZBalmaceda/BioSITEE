@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Brady Portfoliio" />
+    <meta name="keywords" content="Brady,Ryun,Entrepeneur,Student" />
+    <meta http-equiv="default-style" content="brady portfolio" />
+    <meta http-equiv="refresh" content="300" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch%7CExo%7COswald" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Brady Ryun</title>
+</head>
+
+<body>
+
+
+    <!--homepage/navigation-->
+
+    <div class="homePicture parallax">
+    </div>
+    <!--About-->
+    <div class="About">
+        <h1 style="text-align: center">About Me</h1>
+
+
+        <img src="images/resize-1000x1000.jpeg" class="aboutPicture center" />
+        <p class="center" style="text-align: center;">
+            I love everything technology, from video games to programming languages to hardware.
+            I spend most of my free time learning new things and reading about innovative technology.
+            I’m an avid traveler and hiker. My recent travels brought me to Craters of the Moon National Park in Idaho and running a half marathon in Breckenridge, Colorado.
+            For work, I am a technical support specialist for Toast, Inc. It’s a challenging, yet fun work environment that I enjoy going to everyday! I’m also currently a student at the University of Nebraska – Omaha studying for a Bachelor’s of Multidisciplinary Studies. Within this major, I have three concentrations consisting of General Administration, Computer Science and Management Information Systems. I intend to pursue my Master’s in Computer Science afterwards.
+
+        </p>
+
+    </div>
+
+    <!--Projects/Resume-->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 portfolio">
+            <div class="accomplishText">
+                <h1>Portfolio</h1>
+            </div>
+            
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 projects">
+            
+        </div>
+    </div>
+
+    <!--Accomplishments-->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 accomplishments">
+            <div class="accomplishText">
+                <h1 style="color:#2C2727">Accomplishments</h1> 
+                <ul>
+                    <li><a href="#about">About /</a></li>
+                    <li><a href="#portfolio">Portfolio /</a></li>
+                    <li><a href="#achievements">Achievements /</a></li>
+                    <li><a href="#reviews">Reviews /</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+      </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-6 contentImage">  
+        <div class="habitat">
+            <div class="accText">
+                <h1>Habitat for Humanity</h1>
+                <p onclick="openContent()">click to see more</p>
+             </div>
+                  <div>
+                    <img src="images/volunteer.jpg" class="portfolioImg">
+                </div>
+
+                  <div class="content" id="myContent">
+                      <div class="closeButton" onclick="closeContent()">
+                          <h1>X</h1>
+                      </div>
+                      <div>
+                             <img src="images/volunteer.jpg" class="imageHeader" /> 
+                      </div>
+                        <div class="orangeBox">
+                           <h1>Habitat for Humanity Student Chapter </h1>
+                           <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
+                           <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.We genuinely volunteer helping to build houses 
+                           Fridays and Saturdays, usually 3 times a semester.We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
+                      <span style="font-size:30px;cursor:pointer" onclick="closeContent()"> Click to close me</span> 
+                        </div>
+                    </div>
+        </div>
+            
+           
+              
+               <div class="realEstate">
+                    <div class="accText">
+                            <h1>Real Estate Scholarship</h1>
+                        </div>
+                <div onClick="openContent2()">
+                    <img src="images/realestate.jpg" class="portfolioImg">
+                </div>
+               
+                <div class="content2" id="myContent2">
+                    <div class="text">
+                        <br />
+                        <h1 style="padding: 10px; margin-top: 60px;">Real Estate Scholarship</h1>
+                        <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
+                        <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.
+                            We genuinely volunteer helping to build houses Fridays and Saturdays, usually 3 times a semester.
+                            We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
+                    </div>
+                    <button class="btn btn-primary" onclick="closeContent2()">Close</button>
+                </div>
+            </div>
+
+            </div>
+         
+        </div>
+
+
+
+    <!--Reviews-->
+
+
+    <div class="reviews">
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top circle" src="images/ean pic.PNG" alt="Ean Patrick Brady's bestfriend" />
+                <div class="card-body">
+                    <p> </p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top circle" src="images/devin.PNG" alt="Devin Oien Bradys Friend" />
+                <div class="card-body">
+                    <p>hello</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top circle" src="images/elijah.PNG" alt="Elijah Ives Bradys Friend" />
+                <div class="card-body">
+                    <p>
+                        <span id="quotes">"</span>Brady is one of those people who are adventurous and never settle for less.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!--Footer-->
+    <footer> 
+        <div class="col-md-12 col-lg-3 Form">
+                <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+        </div>
+        </footer>
+    </footer>
+    <script>
+       function openContent() {
+    document.getElementById("myContent").style.width = "120%";
+}
+
+function closeContent() {
+    document.getElementById("myContent").style.width = "0";
+}
+function openContent2() {
+    document.getElementById("myContent2").style.width = "120%";
+}
+
+function closeContent2() {
+    document.getElementById("myContent2").style.width = "0";
+}
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!--Contact Me -->
+</body>
+
+</html>
