@@ -124,6 +124,7 @@ border-radius: 50%
 .contentImage{
     background:black;
     padding: 0px;
+    height:100%
 }
 .moreInfo{
     position: absolute;
@@ -180,7 +181,7 @@ display: none;
 }
 
 .content {
-    height:50%;
+    height:100%;
      position: absolute;
      width:0px;
      z-index: 1;
@@ -189,6 +190,7 @@ display: none;
      background-color: white;
      transition: 0.5s;
      text-align:center;
+     overflow:hidden;
  }
  
  .content a {
@@ -210,6 +212,7 @@ display: none;
    background-color: white;
    transition: 0.5s;
    text-align:center;
+   overflow:hidden;
 }
 
 .content2 a {
@@ -219,6 +222,7 @@ display: none;
    color: #818181;
    display: block;
    transition: 0.3s;
+   overflow: hidden;
 
 }
  
@@ -268,13 +272,4 @@ display: none;
     height:50px;
     margin-left: -20px;
     margin-top:30%;
-}
-
-@media screen and (max-width:600px){
-    .content {
-        overflow: hidden;
-     }
-     .content2{
-         overflow:hidden;
-     }
 }
