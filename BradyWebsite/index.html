@@ -24,9 +24,27 @@
     <!--homepage/navigation-->
 
     <div class="homePicture parallax">
-    </div>
+    </div>       
+    
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Portfolio</a>
+                        <a class="nav-item nav-link" href="#">Accomplishments</a>
+                        <a class="nav-item nav-link" href="#">Reviews</a>
+                      </div>
+                    </div>
+                  </nav>
     <!--About-->
     <div class="About">
+     
         <h1 style="text-align: center">About Me</h1>
 
 
@@ -59,18 +77,17 @@
         <div class="col-sm-12 col-md-12 col-lg-6 accomplishments">
             <div class="accomplishText">
                 <h1 style="color:#2C2727">Accomplishments</h1> 
-                <ul>
-                    <li><a href="#about">About /</a></li>
-                    <li><a href="#portfolio">Portfolio /</a></li>
-                    <li><a href="#achievements">Achievements /</a></li>
-                    <li><a href="#reviews">Reviews /</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+               <ol>
+                    <li data-target="#myCarousel" data-slide-to="0"><a href="">Habitat For Humanity/</a></li>
+                    <li data-target="#myCarousel" data-slide-to="1"><a href="">Real Estate Scholarship</a></li>
+           
+                </ol>
             </div>
       </div>
 
     <div class="col-sm-12 col-md-12 col-lg-6 contentImage">  
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                 
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block w-100" src="images/volunteer.jpg" alt="First slide">
@@ -101,44 +118,18 @@
                         <img class="d-block w-100" src="images/realestate.jpg" alt="Third slide">
                       </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-        <!-- <div class="habitat">
-            <div class="accText">
-                <h1>Habitat for Humanity</h1>
-                <p onclick="openContent()">click to see more</p>
-             </div>
-                  <div>
-                    <img src="images/volunteer.jpg" class="portfolioImg">
-                </div>
-
-                  <div class="content" id="myContent">
-                      <div class="closeButton" onclick="closeContent()">
-                          <h1>X</h1>
-                      </div>
-                      <div>
-                             <img src="images/volunteer.jpg" class="imageHeader" /> 
-                      </div>
-                        <div class="orangeBox">
-                           <h1>Habitat for Humanity Student Chapter </h1>
-                           <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
-                           <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.We genuinely volunteer helping to build houses 
-                           Fridays and Saturdays, usually 3 times a semester.We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
-                      <span style="font-size:30px;cursor:pointer" onclick="closeContent()"> Click to close me</span> 
-                        </div>
-                    </div>
-        </div>
+    
             
-           
-              
-                <div class="realEstate">
+                <!-- <div class="realEstate">
                     <div class="accText">
                             <h1>Real Estate Scholarship</h1>
                         </div>
@@ -157,28 +148,7 @@
                     </div>
                     <button class="btn btn-primary" onclick="closeContent2()">Close</button>
                 </div>
-            </div>   -->
-
-            <!-- <div class="realEstate">
-                <div class="accText">
-                        <h1>Real Estate Scholarship</h1>
-                    </div>
-            <div onClick="openContent2()">
-                <img src="images/realestate.jpg" class="portfolioImg">
-            </div>
-           
-            <div class="content2" id="myContent2">
-                <div class="text">
-                    <br />
-                    <h1 style="padding: 10px; margin-top: 60px;">Real Estate Scholarship</h1>
-                    <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
-                    <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.
-                        We genuinely volunteer helping to build houses Fridays and Saturdays, usually 3 times a semester.
-                        We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
-                </div>
-                <button class="btn btn-primary" onclick="closeContent2()">Close</button>
-            </div>
-        </div> -->
+            </div>    -->
 
             </div>
          
