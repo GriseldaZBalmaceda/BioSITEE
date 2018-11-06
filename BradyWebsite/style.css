@@ -2,8 +2,8 @@ html,
 body {
     margin: 0;
     height: 100%;
-     /* font-family: 'Oswald', sans-serif; */
-    font-family: 'Exo 2', sans-serif;
+     font-family: 'Oswald', sans-serif;
+    /* font-family: 'Exo 2', sans-serif; */
     /* font-family: 'Chakra Petch', sans-serif;   */
      /* background-color:#4E413B;
     background-color:#2C2727;
@@ -11,15 +11,30 @@ body {
   
 
 }
+p{
+ font-family: 'Exo 2', sans-serif;
+}
+.homeText h1{
+    font-family:'Oswald', sans-serif;
+    font-size: 12em;
+}
 h2{
     font-family: 'Exo 2', sans-serif;
 }
 .homePicture {
-background-color: black;
-    background-image: url("images/home.JPG");
+    filter: brightness(.8);
+    background-image: url("images/home2.JPG");
     margin: 0;
     height: 100%;
     width: 100%;
+  
+}
+.homeText{
+    color: #FF7517;
+    padding-top: 10%;
+    margin-left: 4%;
+    text-align: center;
+    
 }
 
 .parallax{
@@ -61,14 +76,14 @@ a:active{
 .About{
     padding: 25px;
 }
-.About>p{
+.About>h1{
 
-    line-height: 30px;
+    font-size: 4em;
 }
 .aboutPicture{
+height:200px;
+width:200px;
 
-max-height: 100px;
-max-width: 100px;
 border-radius: 50%
 
 }
@@ -83,12 +98,8 @@ border-radius: 50%
  
 }
 
-.accomplishments{
-    text-align: center;
-    
-}
 .reviews{
-    padding: 50px;
+    padding: 100px;
 }
 
 .circle{
@@ -170,7 +181,9 @@ display: none;
     opacity:.9;
 }
 .accomplishments{
-    /* background-color:#2C2727; */
+    min-height: 500px;
+  z-index:-1;
+  text-align: center;
 }
 
  .accomplishText{
@@ -194,9 +207,15 @@ display: none;
 
 }
 
-
-  
- 
 .contentImage{
     padding:0px;
+}
+.fa-quote-left{
+    color:#FF7517;
+    padding:10px;
+}
+.fa-quote-right{
+    color:#FF7517;
+    padding:10px;
+    float: right;
 }
