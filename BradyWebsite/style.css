@@ -2,24 +2,37 @@ html,
 body {
     margin: 0;
     height: 100%;
-    /* font-family: 'Oswald', sans-serif;
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Chakra Petch', sans-serif; */
-
-    /* this colors are the ones i mostly used may be adding more
-     background-color:#4E413B;
+     font-family: 'Oswald', sans-serif;
+    /* font-family: 'Exo 2', sans-serif; */
+    /* font-family: 'Chakra Petch', sans-serif;   */
+     /* background-color:#4E413B;
     background-color:#2C2727;
     background-color: #FF7517 */
   
 
 }
+p{
+ font-family: 'Exo 2', sans-serif;
+}
+.homeText h1{
+    font-family:'Oswald', sans-serif;
+    font-size: 12em;
+}
 
 .homePicture {
-
-    background-image: url("images/home.JPG");
+    filter: brightness(.8);
+    background-image: url("images/home2.JPG");
     margin: 0;
     height: 100%;
     width: 100%;
+  
+}
+.homeText{
+    color: #FF7517;
+    padding-top: 10%;
+    margin-left: 4%;
+    text-align: center;
+    
 }
 
 .parallax{
@@ -29,81 +42,62 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.navbar-light .navbar-toggler {
-     color: rgba(0,0,0,0); 
-     border-color: rgba(0,0,0,0); 
-}
-.bg-light {
-    background-color: none!important;
-}
-#topnav {
-    background-color: #2C2727;
-    overflow: hidden;
-
-   
-    
-}
 
 .sticky {
     position: fixed;
-    top: 0;
+    top:0;
     
     
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    font-size: 10px;
+    display: inline;
+}
+a:active{
+    color: #FF7517;
+}
+
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
 }
-#topnav a {
-    float: left;
-    padding: 5px;
-    color: #FF7517;
-    font-size: 1.3em;
-    /* font-family: 'Chakra Petch', sans-serif; */
-    font-family: 'Oswald', sans-serif;
-    /* font-family: 'Exo 2', sans-serif;
-   */
-}
+
 .About{
     padding: 25px;
 }
-.About>p{
+.About>h1{
 
-    line-height: 30px;
+    font-size: 4em;
 }
 .aboutPicture{
+height:200px;
+width:200px;
 
-max-height: 100px;
-max-width: 100px;
 border-radius: 50%
 
 }
 .portfolio{
     background-color: #FF7517;
     min-height: 500px;
-    align-items: flex-start;
+    
     z-index: -1;
 }
 .container{
     display: block;
  
 }
-/* .portfolio>h1{
-    text-align: center;
-    margin-top: 250px;
-    display: flex;
-    
 
-} */
-.accomplishments{
-    background-color: #2C2727;
-    min-height: 500px;
-    z-index: -1;
-}
 .reviews{
-    padding: 50px;
+    padding: 100px;
 }
 
 .circle{
@@ -132,16 +126,10 @@ border-radius: 50%
 .portfolioImg{
     height:800px;
     width:100%;
-    opacity:.9;
+    opacity:.6;
    
 }
-.card{
-    z-index: -1;
-}
-.volunteer{
-    background:black;
-    padding: 0px;
-}
+
 .moreInfo{
     position: absolute;
     left:40%;
@@ -187,9 +175,91 @@ display: none;
     text-align: center;
     opacity:.9;
 }
-.accText{
-    position: absolute;
-    top:20%;
-    left:50%;
-    color:orange;
+.accomplishments{
+    min-height: 500px;
+  z-index:-1;
+  text-align: center;
+}
+
+ .accomplishText{
+    margin-top: 50%;
+  
+ }
+ .portfolio{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+ }
+.imageHeader{
+    width:100%;
+    height:300px;
+}
+.orangeBox{
+    background-color: #FF7517;
+    padding:10px;
+    color:white;
+
+
+}
+
+.contentImage{
+    padding:0px;
+}
+.fa-quote-left{
+    color:#FF7517;
+    padding:10px;
+}
+.fa-quote-right{
+    color:#FF7517;
+    padding:10px;
+    float: right;
+}
+footer h2{
+    color:white;
+    font-size: 2.2em;
+
+}
+footer h3{
+    padding: 10px;
+    color:white;
+    font-size: 1.2em;
+    border-bottom: 1px solid white;
+    
+
+}
+footer p{
+    color: lightsalmon;
+    font-size: 1em;
+}
+
+footer{
+    background-color:#FF7517;
+    padding:50px;
+}
+.ContactForm{
+    margin-top: 60px;
+    text-align:center;
+}
+.form-control{
+    border-radius:0!important;
+}
+.btn{
+    color:#FF7517;
+    background-color:#2C2727 ;
+    border-radius: 0!important;
+}
+.form-group label{
+    float:left;
+}
+a:link{
+    color:lightsalmon;
+}
+a:visited{
+    color: #272727;
+}
+a:active{
+    color:#2C2727;
+}
+a:hover{
+    color:#272727
 }
