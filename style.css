@@ -49,14 +49,13 @@ p{
     
     
   }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.courseList>li{
+    font-size: .9em;
+    text-align: center;
+    list-style: none;
+   
 }
-
-
-li {
+.accomplishNav>li {
     font-size: 10px;
     display: inline;
 }
@@ -89,7 +88,7 @@ border-radius: 50%
     background-color: #FF7517;
     min-height: 500px;
     
-    z-index: -1;
+    
 }
 .container{
     display: block;
@@ -183,6 +182,7 @@ display: none;
 
  .accomplishText{
     margin-top: 50%;
+    text-align: center;
   
  }
  .portfolio{
@@ -321,6 +321,12 @@ color: white;
 transform: translate(-50%,-50%);
 -ms-transform: translate(-50%,-50%);
 }
-.navbar-nav{
-    margin-top: 50%;
+
+ .nav-link{
+
+border-radius: 0!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #272727;
 }

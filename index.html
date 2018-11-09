@@ -8,13 +8,18 @@
     <meta http-equiv="default-style" content="brady portfolio" />
     <meta http-equiv="refresh" content="300" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Chakra+Petch%7CExo%7COswald" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
     <title>Brady Ryun</title>
 </head>
@@ -38,7 +43,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="on()">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="on()">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -56,12 +62,18 @@
         <h1 style="text-align: center">About Me</h1>
 
         <p class="center" style="text-align: center;">
-            I love everything technology, from video games to programming languages to hardware. I spend most of my free time learning new
-            things and reading about innovative technology. I’m an avid traveler and hiker. My recent travels brought me to Craters of the Moon
-            National Park in Idaho and running a half marathon in Breckenridge, Colorado. For work, I am a technical support specialist for
-            Toast, Inc. It’s a challenging, yet fun work environment that I enjoy going to everyday! I’m also currently a student at the University
-            of Nebraska – Omaha studying for a Bachelor’s of Multidisciplinary Studies. Within this major, I have three concentrations consisting
-            of General Administration, Computer Science and Management Information Systems. I intend to pursue my Master’s in Computer Science afterwards.
+            I love everything technology, from video games to programming languages to hardware. I spend most of my
+            free time learning new
+            things and reading about innovative technology. I’m an avid traveler and hiker. My recent travels brought
+            me to Craters of the Moon
+            National Park in Idaho and running a half marathon in Breckenridge, Colorado. For work, I am a technical
+            support specialist for
+            Toast, Inc. It’s a challenging, yet fun work environment that I enjoy going to everyday! I’m also currently
+            a student at the University
+            of Nebraska – Omaha studying for a Bachelor’s of Multidisciplinary Studies. Within this major, I have three
+            concentrations consisting
+            of General Administration, Computer Science and Management Information Systems. I intend to pursue my
+            Master’s in Computer Science afterwards.
         </p>
     </div>
 
@@ -70,9 +82,63 @@
         <div class="col-sm-12 col-md-12 col-lg-4 portfolio">
             <div class="accomplishText">
                 <h1>Portfolio</h1>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Applicable Skills</a>
+                    </li>
+                </ul>
+
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-8 projects">
+
+            <div class="tab-content" id="pills-tabContent" style="text-align: center">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+
+                    <img class="w-50"  src="images/uno.jpg" />
+                    <br>
+                    <h2>Bachelors of Multidisciplinary Studies</h2>
+                    <p>May 2019</p>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4>Primary CourseWork</h4>
+                            <ul class="courseList">
+                                <li>Managerial Accounting</li>
+                                <li>Supply Chain Management</li>
+                                <li>Database Administration</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                                <h4>Volunteer Work</h4>
+                                <ul class="courseList">
+                                    <li>Students Against Hunger</li>
+                                    <li>Vice President of Habitat for Humanity Student Chapter</li>
+                                    <li>Project Achieve</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                    <h4>Awards</h4>
+                                    <ul class="courseList">
+                                        <li>National Realtors Association Scholarship</li>
+                                    </ul>
+                                </div>
+                    
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+            </div>
         </div>
     </div>
 
@@ -81,7 +147,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4 accomplishments">
             <div class="accomplishText">
                 <h1 style="color:#FF7517">Accomplishments</h1>
-                <ol>
+                <ol class="accomplishNav">
                     <li data-target="#myCarousel" data-slide-to="0"><a href="">Habitat For Humanity/</a></li>
                     <li data-target="#myCarousel" data-slide-to="1"><a href="">Real Estate Scholarship</a></li>
                 </ol>
@@ -96,8 +162,10 @@
                         <div class="carousel-caption orangeBox">
                             <h1>Habitat for Humanity Student Chapter </h1>
                             <p>I am so priviliged to be the Vice President for Habitat for Humanity</p>
-                            <p> The student chapter is committed to helping Habitat for Humanity Omaha provide affordable housing for Omaha families.We genuinely volunteer helping to build houses
-                                Fridays and Saturdays, usually 3 times a semester.We also help raise funds for Habitat houses through our membership dues of $10 annually and through fundraising events.</p>
+                            <p> The student chapter is committed to helping Habitat for Humanity Omaha provide
+                                affordable housing for Omaha families.We genuinely volunteer helping to build houses
+                                Fridays and Saturdays, usually 3 times a semester.We also help raise funds for Habitat
+                                houses through our membership dues of $10 annually and through fundraising events.</p>
                         </div>
                     </div>
 
@@ -105,7 +173,8 @@
                         <img class="d-block w-100 h-100" src="images/realestate.jpg" alt="Second slide">
                         <div class="carousel-caption orangeBox">
                             <h1>National Association of Realtor’s Scholarship</h1>
-                            <p>I was selected to recieve the National Association Realtor's scholarship.I was chosen because I attained
+                            <p>I was selected to recieve the National Association Realtor's scholarship.I was chosen
+                                because I attained
                                 my realtors license and showed motivation to continue my education and investments.
                             </p>
                         </div>
@@ -139,7 +208,8 @@
                 <img class="card-img-top circle" src="images/ean pic.PNG" alt="Ean Patrick Brady's bestfriend" />
                 <div class="card-body">
 
-                    <p><i class="fas fa-quote-left"></i> An overall joy! Always good to talk to and is always curious about things.<i class="fas fa-quote-right"></i></p>
+                    <p><i class="fas fa-quote-left"></i> An overall joy! Always good to talk to and is always curious
+                        about things.<i class="fas fa-quote-right"></i></p>
 
                 </div>
             </div>
@@ -148,7 +218,8 @@
                 <img class="card-img-top circle" src="images/devin.PNG" alt="Devin Oien Bradys Friend" />
                 <div class="card-body">
                     <p>
-                        <p><i class="fas fa-quote-left"></i>Brady is a considerate friend,easy to relate and a very smart individual.<p><i class="fas fa-quote-right"></i> </p>
+                        <p><i class="fas fa-quote-left"></i>Brady is a considerate friend,easy to relate and a very
+                            smart individual.<p><i class="fas fa-quote-right"></i> </p>
                 </div>
             </div>
             <div class="card">
@@ -156,7 +227,8 @@
                 <div class="card-body">
                     <p>
                         <p><i class="fas fa-quote-left"></i>
-                            Brady and I travel together and our most recent trip was Idaho! I love hiking and camping with him and can't wait for our next trip!
+                            Brady and I travel together and our most recent trip was Idaho! I love hiking and camping
+                            with him and can't wait for our next trip!
                             <p><i class="fas fa-quote-right"></i>
                             </p>
                 </div>
@@ -253,7 +325,8 @@
         }
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
 
     <!--Contact Me -->
 </body>
