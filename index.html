@@ -8,43 +8,27 @@
     <meta http-equiv="default-style" content="brady portfolio" />
     <meta http-equiv="refresh" content="300" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Chakra+Petch%7CExo%7COswald" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
     <title>Brady Ryun</title>
 </head>
 
 <body>
-
-
     <!--homepage/navigation-->
-
-
     <div class="homePicture parallax col-sm-12">
         <div class="homeText">
             <h1>Brady Ryun</h1>
             <p>Entrepeneur,Student,Travelor</p>
         </div>
-
     </div>
-
-
-
-
     <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="on()">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="on()">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -84,32 +68,27 @@
                 <h1>Portfolio</h1>
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-                            aria-controls="pills-home" aria-selected="true">Education</a>
+                        <a class="nav-link active" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="true">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                            aria-controls="pills-profile" aria-selected="false">Work Experience</a>
+                        <a class="nav-link" id="pills-workExperience-tab" data-toggle="pill" href="#pills-workExperience" role="tab" aria-controls="pills-workExperience" aria-selected="false">Work Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-                            aria-controls="pills-contact" aria-selected="false">Applicable Skills</a>
+                        <a class="nav-link" id="pills-skills-tab" data-toggle="pill" href="#pills-skills" role="tab" aria-controls="pills-skills" aria-selected="false">Applicable Skills</a>
                     </li>
                 </ul>
 
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-8 projects">
-
             <div class="tab-content" id="pills-tabContent" style="text-align: center">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
-
-                    <img class="w-50"  src="images/uno.jpg" />
+                <div class="tab-pane fade show active" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                    <img class="w-50" src="images/uno.jpg" />
                     <br>
                     <h2>Bachelors of Multidisciplinary Studies</h2>
                     <p>May 2019</p>
-                    <div class="row">
+
+                    <div class="row educationContent">
                         <div class="col-lg-4">
                             <h4>Primary CourseWork</h4>
                             <ul class="courseList">
@@ -119,27 +98,89 @@
                             </ul>
                         </div>
                         <div class="col-lg-4">
-                                <h4>Volunteer Work</h4>
-                                <ul class="courseList">
-                                    <li>Students Against Hunger</li>
-                                    <li>Vice President of Habitat for Humanity Student Chapter</li>
-                                    <li>Project Achieve</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4">
-                                    <h4>Awards</h4>
-                                    <ul class="courseList">
-                                        <li>National Realtors Association Scholarship</li>
-                                    </ul>
-                                </div>
-                    
+                            <h4>Volunteer Work</h4>
+                            <ul class="courseList">
+                                <li>Students Against Hunger</li>
+                                <li>Vice President of Habitat for Humanity Student Chapter</li>
+                                <li>Project Achieve</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Awards</h4>
+                            <ul class="courseList">
+                                <li>National Realtors Association Scholarship</li>
+                            </ul>
+                        </div>
                     </div>
-
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+
+                <div class="tab-pane fade" id="pills-workExperience" role="tabpanel" aria-labelledby="pills-workExperience-tab">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card ">
+                                <h4>Toast Inc.</h4>
+                                <p>2018-Present</p>
+                                <p>IT Technician</p>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-tv" style="font-size: 30px"></i>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card ">
+                                <h4>Keller Williams</h4>
+                                <p>2018-Present</p>
+                                <p>Real Estate Agent</p>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-home" style="font-size: 30px"></i>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card ">
+                                <h4>Upstream Brewing Company</h4>
+                                <p>2018-Present</p>
+                                <p>Server</p>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-utensils" style="font-size: 30px"></i>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab">
+                
+                </div>
+
             </div>
+
         </div>
+    </div>
     </div>
 
     <!--Accomplishments-->
@@ -207,7 +248,6 @@
             <div class="card">
                 <img class="card-img-top circle" src="images/ean pic.PNG" alt="Ean Patrick Brady's bestfriend" />
                 <div class="card-body">
-
                     <p><i class="fas fa-quote-left"></i> An overall joy! Always good to talk to and is always curious
                         about things.<i class="fas fa-quote-right"></i></p>
 
@@ -217,20 +257,17 @@
             <div class="card">
                 <img class="card-img-top circle" src="images/devin.PNG" alt="Devin Oien Bradys Friend" />
                 <div class="card-body">
-                    <p>
-                        <p><i class="fas fa-quote-left"></i>Brady is a considerate friend,easy to relate and a very
-                            smart individual.<p><i class="fas fa-quote-right"></i> </p>
+                    <p><i class="fas fa-quote-left"></i>Brady is a considerate friend,easy to relate and a very
+                        smart individual.<p><i class="fas fa-quote-right"></i> </p>
                 </div>
             </div>
             <div class="card">
                 <img class="card-img-top circle" src="images/elijah.PNG" alt="Elijah Ives Bradys Friend" />
                 <div class="card-body">
-                    <p>
-                        <p><i class="fas fa-quote-left"></i>
-                            Brady and I travel together and our most recent trip was Idaho! I love hiking and camping
-                            with him and can't wait for our next trip!
-                            <p><i class="fas fa-quote-right"></i>
-                            </p>
+                    <p><i class="fas fa-quote-left"></i>
+                        Brady and I travel together and our most recent trip was Idaho! I love hiking and camping
+                        with him and can't wait for our next trip!
+                        <p><i class="fas fa-quote-right"></i></p>
                 </div>
             </div>
         </div>
@@ -325,8 +362,7 @@
         }
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <!--Contact Me -->
 </body>
