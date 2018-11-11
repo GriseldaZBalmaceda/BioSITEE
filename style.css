@@ -205,7 +205,7 @@ display: none;
 }
 
  .accomplishText{
-    margin-top: 50%;
+    margin-top: 30%;
     text-align: center;
   
  }
@@ -228,7 +228,17 @@ display: none;
 
 
 }
-
+.modal{
+    color:black;
+}
+.btn-secondary{
+    background-color:#FF7517;
+    border-color:#FF7517
+}
+.btn-secondary:hover{
+    background-color:#FF7517;
+    border-color:#FF7517
+}
 .contentImage{
     padding:0px;
 }
@@ -326,19 +336,6 @@ a:hover{
  font-size: 1.3em;
  margin-left: 12px;
  margin-top: 12px;
-}
-.navbar-collapse{
-    /* position: fixed;
-    display: none;
-    widows: 100%;
-    height:100%;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    /* background-color:rgba(0,0,0,0.5); 
-    z-index:-2;
-    cursor:pointer;*/
 }
 .overlay{
     position: absolute;
