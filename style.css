@@ -231,11 +231,11 @@ display: none;
 .modal{
     color:black;
 }
-.btn-secondary{
+.orangeButton{
     background-color:#FF7517;
     border-color:#FF7517
 }
-.btn-secondary:hover{
+.orangeButton:hover{
     background-color:#FF7517;
     border-color:#FF7517
 }
