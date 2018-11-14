@@ -210,17 +210,6 @@ a:active {
 }
 
 
-/**media style*/
-
-@media only screen and (max-width: 1000px) {
-    #topnav {
-        background-color: #f8f9fa00;
-    }
-    .workExperience > .row{
-        flex-wrap: nowrap;
-       overflow: scroll;
-    }
-}
 
 
 
@@ -373,3 +362,18 @@ a:hover {
     color: white;
 }
 
+/**media style*/
+
+@media only screen and (max-width: 1000px) {
+    #topnav {
+        background-color: #f8f9fa00;
+    }
+    .workExperience > .row{
+        flex-wrap: nowrap;
+       overflow: scroll;
+    }
+    .skillContent>.row{
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+}
